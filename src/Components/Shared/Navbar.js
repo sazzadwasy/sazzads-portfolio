@@ -9,7 +9,7 @@ const Navbar = () => {
             <li><Link to='/home'>Contact</Link></li>
         </>
     return (
-        <div class="navbar bg-base-300">
+        <div class="navbar bg-accent text-white font-semibold">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -19,7 +19,7 @@ const Navbar = () => {
                         {navbarOptions}
                     </ul>
                 </div>
-                <span class="text-lg text-gray-800 px-8">Sazzads Portfolio</span>
+                <span class="text-lg text-white font-semibold px-8">Sazzads Portfolio</span>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">

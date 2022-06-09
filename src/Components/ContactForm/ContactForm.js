@@ -29,7 +29,7 @@ const ContactForm = () => {
                             <textarea class="textarea textarea-bordered" placeholder="Your messege"></textarea>
                         </div>
                         <div class="form-control mt-6">
-                            <button class="btn btn-info">Send</button>
+                            <button class="btn btn-accent">Send</button>
                         </div>
                     </div>
                 </div>
