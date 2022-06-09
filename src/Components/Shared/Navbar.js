@@ -5,8 +5,8 @@ const Navbar = () => {
     const navbarOptions =
         <>
             <li><Link to='/home'>Home</Link></li>
-            <li><Link to='/home'>Blogs</Link></li>
-            <li><Link to='/home'>My Portfolio</Link></li>
+            <li><Link to='/home'>Project</Link></li>
+            <li><Link to='/home'>Contact</Link></li>
         </>
     return (
         <div class="navbar bg-base-300">
