@@ -1,13 +1,25 @@
 import React from 'react';
+import imgA from '../../images/detailImg/pTwoA.png'
+import imgB from '../../images/detailImg/pTwoB.png'
+import imgC from '../../images/detailImg/pTwoC.png'
 
 const ProjectTwo = () => {
     return (
         <div class="hero min-h-screen bg-base-200">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="text-center lg:text-left">
-                    <h1 class="text-5xl font-bold">Login now!</h1>
-                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <div class="card-actions justify-center">
+                    <h1 class="text-3xl font-bold">Assignment <br />Project-12</h1>
+                    <p class="text-lg py-6">
+                        ● Created a website for manufacturing car parts.Full responsive and user friendly.
+                        <br />
+                        ● Users can buy any products and pay.user can give reviews and feedback.
+                        Created a dashboard with Admin panel.
+                        <br />
+                        ● Admin can make any user to admin.Admin can delete any orders and reviews.
+                        <br />
+                        ●Admin also can add new car parts for sell and export.</p>
+                    <p className='text-xl'><span className='font-bold'> Technology : </span> React,firebase,tailwind,daisyUi,react firebase hooks,react-tostify,heroku</p>
+                    <div class="card-actions justify-center mt-3">
                         <a href='https://github.com/sazzadwasy/manufacturing-parts-client' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Client git</a>
                         <a href='https://github.com/sazzadwasy/manufacturing-parts-server' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Server git</a>
                         <a href='https://splendorous-liger-f94130.netlify.app/' target='_blank' rel="noreferrer" class="btn btn-accent btn-sm">Live site</a>
@@ -16,13 +28,13 @@ const ProjectTwo = () => {
                 <div>
                     <div class="carousel carousel-center h-96 max-w-lg sm:max-w-sm p-4 space-x-4 bg-neutral rounded-box mx-auto">
                         <div id="item1" class="carousel-item">
-                            <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
+                            <img src={imgA} alt="" class="rounded-box" />
                         </div>
                         <div id="item2" class="carousel-item">
-                            <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=500B67FB" class="rounded-box" />
+                            <img src={imgB} alt="" class="rounded-box" />
                         </div>
                         <div id="item3" class="carousel-item">
-                            <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=A89D0DE6" class="rounded-box" />
+                            <img src={imgC} alt="" class="rounded-box" />
                         </div>
 
                     </div>

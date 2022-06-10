@@ -1,16 +1,22 @@
 import React from 'react';
-import ImgA from '../../images/detailImg/pOneA.png'
-import ImgB from '../../images/detailImg/pOneB.png'
-import ImgC from '../../images/detailImg/pOneC.png'
+import imgA from '../../images/detailImg/pOneA.png'
+import imgB from '../../images/detailImg/pOneB.png'
+import imgC from '../../images/detailImg/pOneC.png'
 
 const ProjectOne = () => {
     return (
         <div class="hero min-h-screen bg-base-200">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="text-center lg:text-left">
-                    <h1 class="text-5xl font-bold">Login now!</h1>
-                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <div class="card-actions justify-center">
+                    <h1 class="text-3xl font-bold">Warehouse
+                        <br />Project-11</h1>
+                    <p class="text-lg py-6">● This is a bike warehouse project.Full responsive project with clear user interface.
+                        <br />
+                        ● In this website an user can create an account and see the warehouse stock bikes.
+                        <br />
+                        ● We have also shown our honorable Dealers what says about our business.</p>
+                    <p className='text-xl'><span className='font-bold'> Technology : </span> React,firebase,tailwind,daisyUi,react firebase hooks,react-tostify,heroku</p>
+                    <div class="card-actions justify-center mt-3">
                         <a href='https://github.com/sazzadwasy/warehouse-project-client' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Client git</a>
                         <a href='https://github.com/sazzadwasy/project-warehouse-server' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Server git</a>
                         <a href='https://delightful-conkies-093666.netlify.app/' target='_blank' rel="noreferrer" class="btn btn-accent btn-sm">Live site</a>
@@ -19,13 +25,13 @@ const ProjectOne = () => {
                 <div>
                     <div class="carousel carousel-center h-96 max-w-lg sm:max-w-sm p-4 space-x-4 bg-neutral rounded-box mx-auto">
                         <div id="item1" class="carousel-item">
-                            <img src={ImgA} alt="" class="rounded-box" />
+                            <img src={imgA} alt="" class="rounded-box" />
                         </div>
                         <div id="item2" class="carousel-item">
-                            <img src={ImgB} alt="" class="rounded-box" />
+                            <img src={imgB} alt="" class="rounded-box" />
                         </div>
                         <div id="item3" class="carousel-item">
-                            <img src={ImgC} alt="" class="rounded-box" />
+                            <img src={imgC} alt="" class="rounded-box" />
                         </div>
 
                     </div>
