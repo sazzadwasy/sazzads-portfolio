@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import project1 from '../../images/project1.png'
 import project2 from '../../images/project2.png'
 import project3 from '../../images/project3.png'
@@ -21,6 +22,7 @@ const MyProjects = () => {
                             <a href='https://github.com/sazzadwasy/warehouse-project-client' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Client git</a>
                             <a href='https://github.com/sazzadwasy/project-warehouse-server' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Server git</a>
                             <a href='https://delightful-conkies-093666.netlify.app/' target='_blank' rel="noreferrer" class="btn btn-accent btn-sm">Live site</a>
+                            <Link to='/project-1' class="btn btn-accent btn-sm">Details</Link>
                         </div>
                     </div>
                 </div>
@@ -36,6 +38,7 @@ const MyProjects = () => {
                             <a href='https://github.com/sazzadwasy/manufacturing-parts-client' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Client git</a>
                             <a href='https://github.com/sazzadwasy/manufacturing-parts-server' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Server git</a>
                             <a href='https://splendorous-liger-f94130.netlify.app/' target='_blank' rel="noreferrer" class="btn btn-accent btn-sm">Live site</a>
+                            <Link to='/project-2' class="btn btn-accent btn-sm">Details</Link>
                         </div>
                     </div>
                 </div>
@@ -50,6 +53,7 @@ const MyProjects = () => {
                         <div class="card-actions justify-center">
                             <a href='https://github.com/sazzadwasy/Dentists-project' target='_blank' rel="noreferrer" class="btn btn-dark btn-sm">Client git</a>
                             <a href='https://rainbow-khapse-ca051f.netlify.app/' target='_blank' rel="noreferrer" class="btn btn-accent btn-sm">Live site</a>
+                            <Link to='/project-3' class="btn btn-accent btn-sm">Details</Link>
                         </div>
                     </div>
                 </div>
